@@ -1,4 +1,9 @@
 <?php
+/*Author: Ben McGahee
+  Title: Read File
+  Date: 4/13/2016
+  Purpose: This script contains a couple of test writes that may or may not be written when the read() function is called.
+*/
 
 $file = "todolist.txt"; //read an existing file called todolist.txt
 read($file);
