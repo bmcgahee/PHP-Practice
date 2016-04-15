@@ -3,10 +3,12 @@
 Title: Random Numbers and Operations
 Date: 4/12/2016
 Purpose:  This program selects two random numbers between 1 and 100 and selects a random operation to operate on the two numbers.*/
+
 $x = rand(1, 100);
 $y = rand(1, 100);
 $operations = array("Addition", "Subtraction", "Multiplication", "Division", "Power", "Modulus", "Compare", "Average");
 $op = $operations[array_rand($operations)]; //select a random operation from the $operations array.
+
 switch($op)
 {
    case "Addition":
