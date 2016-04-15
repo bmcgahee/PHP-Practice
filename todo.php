@@ -1,8 +1,9 @@
 <?php
-//Author: Ben McGahee
-//Title: Write to File
-//Date: 4/13/2016
-//Purpose: This script creates and write text to a text file and displays the current time when the file was saved.
+/*Author: Ben McGahee
+  Title: Write to File
+  Date: 4/13/2016
+  Purpose: This script creates and write text to a text file and displays the current time when the file was saved.
+*/
 
 $file = "todolist.txt";
 
