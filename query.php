@@ -1,8 +1,9 @@
 <?php
-//Author: Ben McGahee
-//Title: MYSQL Employee Query
-//Date: 4/14/2016
-//Purpose: This script connects to the Employees database and accesses employee records from the employees table.
+/*Author: Ben McGahee
+  Title: MYSQL Employee Query
+  Date: 4/14/2016
+  Purpose: This script connects to the Employees database and accesses employee records from the employees table.
+*/
 
 $server = "localhost";
 $username = "root";
